@@ -1,0 +1,15 @@
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\bin\Debug\net6.0\FileExceptionHandling.exe
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\bin\Debug\net6.0\FileExceptionHandling.deps.json
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\bin\Debug\net6.0\FileExceptionHandling.runtimeconfig.json
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\bin\Debug\net6.0\FileExceptionHandling.dll
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\bin\Debug\net6.0\FileExceptionHandling.pdb
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\FileExceptionHandling.csproj.AssemblyReference.cache
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\FileExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\FileExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\FileExceptionHandling.AssemblyInfo.cs
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\FileExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\FileExceptionHandling.dll
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\refint\FileExceptionHandling.dll
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\FileExceptionHandling.pdb
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\FileExceptionHandling.genruntimeconfig.cache
+C:\Users\Siva Thota\Desktop\VS\FileExceptionHandling\FileExceptionHandling\obj\Debug\net6.0\ref\FileExceptionHandling.dll

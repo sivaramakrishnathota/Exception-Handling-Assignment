@@ -1,0 +1,15 @@
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\bin\Debug\net6.0\MultiThreadingExceptionHandling.exe
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\bin\Debug\net6.0\MultiThreadingExceptionHandling.deps.json
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\bin\Debug\net6.0\MultiThreadingExceptionHandling.runtimeconfig.json
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\bin\Debug\net6.0\MultiThreadingExceptionHandling.dll
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\bin\Debug\net6.0\MultiThreadingExceptionHandling.pdb
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\MultiThreadingExceptionHandling.csproj.AssemblyReference.cache
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\MultiThreadingExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\MultiThreadingExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\MultiThreadingExceptionHandling.AssemblyInfo.cs
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\MultiThreadingExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\MultiThreadingExceptionHandling.dll
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\refint\MultiThreadingExceptionHandling.dll
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\MultiThreadingExceptionHandling.pdb
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\MultiThreadingExceptionHandling.genruntimeconfig.cache
+C:\Users\Siva Thota\Desktop\VS\MultiThreadingExceptionHandling\MultiThreadingExceptionHandling\obj\Debug\net6.0\ref\MultiThreadingExceptionHandling.dll

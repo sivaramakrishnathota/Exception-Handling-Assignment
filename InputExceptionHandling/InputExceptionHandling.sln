@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputExceptionHandling", "InputExceptionHandling\InputExceptionHandling.csproj", "{92C0AEEC-5AB9-4F8A-998C-31FD07894DEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92C0AEEC-5AB9-4F8A-998C-31FD07894DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C0AEEC-5AB9-4F8A-998C-31FD07894DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C0AEEC-5AB9-4F8A-998C-31FD07894DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C0AEEC-5AB9-4F8A-998C-31FD07894DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A6296B9-352E-48E7-91C7-20D5F91F80D2}
+	EndGlobalSection
+EndGlobal
