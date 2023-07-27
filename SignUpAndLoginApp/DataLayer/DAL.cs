@@ -1,19 +1,14 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
-using System.Text;
 using BusinessModel;
 using System.Configuration;
 
 namespace DataLayer
 {
-    public class DAL
+    public class DAL:IDAL
     {
         public string connectionString = ConfigurationManager.ConnectionStrings["Connectionstring"].ConnectionString;
-        //public DAL()
-        //{
-        //    connectionString = @"Data Source=192.168.0.30;Initial Catalog=siva;User ID=User5;Password=CDev005#8";
-        //}
 
         /// <summary>
         /// this method is check the user details . if not exists then details will be saved.
@@ -54,10 +49,11 @@ namespace DataLayer
         /// <returns></returns>
         public bool isValidLogin(Users userObj)
         {
+            string encodedPassword = EncodePasswordToBase64(userObj.password);
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand("select Email,PasswordHash from UserData where Email=@Email", connection);
             command.Parameters.AddWithValue("Email", userObj.email);
-            command.Parameters.AddWithValue("PasswordHash", userObj.password);
+            command.Parameters.AddWithValue("PasswordHash", encodedPassword);
             SqlDataAdapter dataadapter = new SqlDataAdapter(command);
             SqlCommandBuilder sqlCommandBuilder = new SqlCommandBuilder(dataadapter);
             DataTable datatable = new DataTable("users");
@@ -65,7 +61,7 @@ namespace DataLayer
             try
             {
                 DataRow datarow = datatable.Rows[0];
-                if (datarow["Email"].ToString() == userObj.email && datarow["PasswordHash"].ToString() == userObj.password)
+                if (datarow["Email"].ToString() == userObj.email && datarow["PasswordHash"].ToString() == encodedPassword)
                 {
                     return true; //Login successful
                 }
@@ -84,6 +80,7 @@ namespace DataLayer
         /// <returns></returns>
         public bool InsertUser(Users userObj)
         {
+            string encodedPassword = EncodePasswordToBase64(userObj.password);
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
@@ -93,7 +90,7 @@ namespace DataLayer
                     using (SqlCommand command = new SqlCommand(insertQuery, connection))
                     {
                         command.Parameters.AddWithValue("@Email", userObj.email);
-                        command.Parameters.AddWithValue("@PasswordHash", userObj.password);
+                        command.Parameters.AddWithValue("@PasswordHash", encodedPassword);
                         command.Parameters.AddWithValue("Username", userObj.userName);
                         command.Parameters.AddWithValue("MobileNumber", userObj.mobileNumber);
 
@@ -135,9 +132,10 @@ namespace DataLayer
         //        return false;
         //    }
         //}
-        public bool toChangePassword(string email, string newpassword, string username)
+        public bool toChangePassword(string email, string password, string username)
         {
             bool result = false;
+            string newpassword = EncodePasswordToBase64(password);
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
@@ -165,6 +163,20 @@ namespace DataLayer
             catch (Exception)
             {
                 return false;
+            }
+        }
+        public string EncodePasswordToBase64(string password)
+        {
+            try
+            {
+                byte[] encData_byte = new byte[password.Length];
+                encData_byte = System.Text.Encoding.UTF8.GetBytes(password);
+                string encodedData = Convert.ToBase64String(encData_byte);
+                return encodedData;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error in base64Encode" + ex.Message);
             }
         }
 

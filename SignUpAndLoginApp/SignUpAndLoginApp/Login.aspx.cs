@@ -18,8 +18,10 @@ namespace SignUpAndLoginApp
         {
             string email = txtLoginEmail.Text.Trim();
             string password = txtLoginPassword.Text.Trim();
-            BLL bll_Obj = new BLL();
-            bool isAuthenticated = bll_Obj.UserLogin(email, password);
+
+            BLLFactory factoryObj = new BLLFactory();
+            IBLL bLLObj = factoryObj.GetBLL();
+            bool isAuthenticated = bLLObj.UserLogin(email, password);
             if (isAuthenticated)
             {
                 Response.Redirect("LogOut.aspx");

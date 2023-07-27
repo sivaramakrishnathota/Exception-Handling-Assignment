@@ -21,8 +21,9 @@ namespace SignUpAndLoginApp
             string userName = txtUserName.Text.Trim();
             string mobileNumber = txtMobileNumber.Text.Trim();
             //bll object to access the userregistration method.
-            BLL BLLObj = new BLL();
-            bool isRegistered = BLLObj.UserRegistration(email, password, userName, mobileNumber);
+            BLLFactory factoryObj = new BLLFactory();
+            IBLL bLLObj = factoryObj.GetBLL();
+            bool isRegistered = bLLObj.UserRegistration(email, password, userName, mobileNumber);
 
             if (isRegistered)
             {
@@ -32,7 +33,6 @@ namespace SignUpAndLoginApp
             {
                 Response.Write("Registration failed.");
             }
-
         }
 
         /// <summary>
@@ -44,6 +44,5 @@ namespace SignUpAndLoginApp
         {
             Response.Redirect("Login.aspx");
         }
-
     }
 }
