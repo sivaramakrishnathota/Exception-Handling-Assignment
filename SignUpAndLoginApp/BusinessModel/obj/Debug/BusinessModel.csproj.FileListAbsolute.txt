@@ -1,0 +1,6 @@
+C:\Users\Siva Thota\Desktop\VS\SignUpAndLoginApp\BusinessModel\bin\Debug\BusinessModel.dll
+C:\Users\Siva Thota\Desktop\VS\SignUpAndLoginApp\BusinessModel\bin\Debug\BusinessModel.pdb
+C:\Users\Siva Thota\Desktop\VS\SignUpAndLoginApp\BusinessModel\obj\Debug\BusinessModel.csproj.AssemblyReference.cache
+C:\Users\Siva Thota\Desktop\VS\SignUpAndLoginApp\BusinessModel\obj\Debug\BusinessModel.csproj.CoreCompileInputs.cache
+C:\Users\Siva Thota\Desktop\VS\SignUpAndLoginApp\BusinessModel\obj\Debug\BusinessModel.dll
+C:\Users\Siva Thota\Desktop\VS\SignUpAndLoginApp\BusinessModel\obj\Debug\BusinessModel.pdb
